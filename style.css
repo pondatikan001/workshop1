@@ -1,0 +1,95 @@
+html {
+  background-image: url("backsky.jpg");
+  font-family: 'Kanit';
+}
+
+html #body {
+  width: 600px;
+  color: white;
+  margin: 50px auto 50px auto;
+  text-align: center;
+}
+
+html #body h1 {
+  padding: 10px;
+  margin: 0px;
+  background-color:rgb(196, 48, 164);
+  border: 1px hidden black;
+  border-radius: 30px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+html #body form {
+  padding-top: 20px;
+  background-color: black;
+  text-align: center;
+  border: 1px solid black;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+html #body form label {
+  font-size: 25px;
+}
+
+html #body form input {
+  margin: 10px 0 10px 5px;
+  border: 1px solid rgb(196, 48, 164);
+  border-radius: 3px;
+  height: 30px;
+  width: 200px;
+}
+
+html #body form button {
+  margin: 15px 0 22px 0;
+  border: 1px hidden black;
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  background-color: rgb(196, 48, 164);
+  color: honeydew;
+}
+
+html #body form botton:hover {
+  margin: 15px 0 22px 0;
+  border: 1px hidden black;
+  border-radius: 10px;
+  width: 105px;
+  height: 35px;
+  background-color: black;
+  color: lightgrey;
+}
+
+html #display {
+  width: 600px;
+  color: white;
+  margin: 50px auto 50px auto;
+  text-align: center;
+}
+
+html #display h1 {
+  padding: 10px;
+  margin: 0px;
+  background-color: rgb(196, 48, 164);
+  border: 1px hidden black;
+  border-radius: 30px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+html #display #innerdisplay {
+  background-color: black;
+  border: 1px hidden black;
+  border-radius: 30px;
+  padding-bottom: 15px;
+}
+
+html #display #innerdisplay div {
+  text-align: left;
+  margin: 20px;
+  font-size: 20px;
+}
+/*# sourceMappingURL=style.css.map */
